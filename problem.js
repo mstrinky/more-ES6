@@ -30,3 +30,12 @@ const friendsFilter = (friends) =>{
 const friends = ['ring','ping','ching','sing'];
 const declareFuntion = friendsFilter(friends);
 console.log(declareFuntion);
+
+// five 
+const square = (a,b,c) => a*a + b*b + c*c ;
+const doSquare = square(4,3,2);
+console.log(doSquare);
+
+// six 
+const sixTimes = [3,6,4,7,9].map(x=>x*6);
+console.log(sixTimes);
