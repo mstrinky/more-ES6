@@ -39,3 +39,10 @@ console.log(doSquare);
 // six 
 const sixTimes = [3,6,4,7,9].map(x=>x*6);
 console.log(sixTimes);
+
+// filter and find 
+const allNumbers = [4,5,6,7,8,2,15,7,78,10,56,32];
+const fives = allNumbers.find(num => num%5 ===0 );
+const fivesAll = allNumbers.filter(num=> num%5 ===0);
+console.log(fives);
+console.log(fivesAll);
